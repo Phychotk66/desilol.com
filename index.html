@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noarchive">
+    
+    <!-- Primary Meta Tags -->
+    <title>DeSilol | OnlyFans Media Extraction Suite</title>
+    <meta name="description" content="Enterprise-grade OnlyFans content acquisition platform with cryptographic verification and multi-threaded processing">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://desilol.com/">
+    <meta property="og:title" content="DeSilol | Professional Media Extraction Solution">
+    <meta property="og:description" content="High-performance OnlyFans content processing engine with Rust-Python core">
+    <meta property="og:image" content="https://desilol.com/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://desilol.com/">
+    <meta property="twitter:title" content="DeSilol | Advanced Media Extraction">
+    <meta property="twitter:description" content="Enterprise-level OnlyFans content acquisition platform">
+    <meta property="twitter:image" content="https://desilol.com/og-image.jpg">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" id="logo" href="#">
+                DeSilol
+            </a>
+            <div class="d-flex">
+                <button class="btn btn-glass" id="sp" data-bs-toggle="modal" data-bs-target="#supportModal">
+                    Support Development
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container-fluid glass-background">
+        <div class="row min-vh-100 align-items-center">
+            <div class="col-12 col-md-8 mx-auto text-center">
+                <h1 class="display-3 fw-bold mb-4 neon-text">Precision Media Extraction</h1>
+                <!-- Input Section -->
+<div class="input-group input-group-lg mb-3 shadow-lg">
+    <input type="url" 
+           id="profileInput"  
+           class="form-control glass-input" 
+           placeholder="https://onlyfans.com/profile-name/media"
+           aria-label="Profile URL">
+    <button class="btn btn-wine" type="button" id="extractBtn">
+        Initialize Extraction Protocol
+    </button>
+</div>
+                <p class="text-muted mt-2">Supports SHA-256 verified content delivery</p>
+            </div>
+        </div>
+
+        <!-- Workflow Section -->
+        <section class="row py-5">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title">Operational Process</h2>
+            </div>
+            
+            <!-- Step 01 -->
+            <div class="col-md-4 mb-4">
+                <div class="glass-card h-100">
+                    <div class="step-number">01</div>
+                    <h3 class="step-title">Profile Identification</h3>
+                    <p class="step-text">Insert complete OF profile URL with media parameters</p>
+                </div>
+            </div>
+        
+            <!-- Step 02 -->
+            <div class="col-md-4 mb-4">
+                <div class="glass-card h-100">
+                    <div class="step-number">02</div>
+                    <h3 class="step-title">Content Analysis</h3>
+                    <p class="step-text">System verifies profile validity and media availability</p>
+                </div>
+            </div>
+        
+            <!-- Step 03 -->
+            <div class="col-md-4 mb-4">
+                <div class="glass-card h-100">
+                    <div class="step-number">03</div>
+                    <h3 class="step-title">Secure Acquisition</h3>
+                    <p class="step-text">Encrypted media transfer with integrity verification</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Support Modal -->
+    <div class="modal fade" id="supportModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content glass-modal">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">Project Support</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group">
+                        <input type="text" 
+                               id="walletAddress"
+                               class="form-control glass-input" 
+                               value="1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
+                               readonly>
+                        <button class="btn btn-wine" id="copyButton">
+                            <i class="bi bi-clipboard me-2"></i>Copy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Toast -->
+    <div class="toast position-fixed bottom-0 end-0 m-3" id="statusToast">
+        <div class="toast-header bg-transparent border-0">
+            <strong class="me-auto text-white">Notification</strong>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"></button>
+        </div>
+        <div class="toast-body text-white" id="toastBody"></div>
+    </div>
+    <div class="toast" id="statusToast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body">
+            <i class="bi bi-info-circle-fill"></i>
+            <span class="toast-message">Sample message</span>
+        </div>
+    </div>
+
+    <footer class="glass-footer py-4 mt-5 border-top border-wine">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 DeSilol. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <small class="text-muted">Gecko-based browsers required for optimal performance</small>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
